@@ -9,6 +9,17 @@
  * @returns {boolean} True if the object is an instance of a class with the given name; false otherwise.
  */
 function instanceOf (object, className) {
+	if (typeof object !== 'object' || object === null) {
+		throw new Error('instanceOf requires parameter object to be of type object');
+	}
+	if (typeof className !== 'string') {
+		throw new Error('instanceOf requires parameter className to be of type string');
+	}
+	
+	if (className === 'object') {
+		return true;
+	}
+	
 	var constructor = object.constructor;
 	
 	do {
