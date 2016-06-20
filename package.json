@@ -1,0 +1,17 @@
+{
+  "name": "instance-of-name",
+  "version": "0.1.0",
+  "description": "Checks the prototypical chain of an object and compares each constructor's name against the value.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmiller42/instance-of-name.git"
+  },
+  "keywords": ["instanceof","instance-of-name","prototype","constructor"],
+  "author": "Matt Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmiller42/instance-of-name/issues"
+  },
+  "homepage": "https://github.com/mmiller42/instance-of-name#readme"
+}
