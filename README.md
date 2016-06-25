@@ -31,5 +31,5 @@ instanceOf(focus, 'Focus'); // true
 instanceOf(focus, 'Ford'); // true
 instanceOf(focus, 'Car'); // true
 instanceOf(focus, 'Object'); // true
-focus instanceof Array; // false
+instanceOf(focus, 'Array'); // false
 ```

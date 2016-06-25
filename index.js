@@ -16,7 +16,7 @@ function instanceOf (object, className) {
 		throw new Error('instanceOf requires parameter className to be of type string');
 	}
 	
-	if (className === 'object') {
+	if (className === 'Object') {
 		return true;
 	}
 	
