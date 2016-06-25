@@ -1,6 +1,6 @@
 {
   "name": "instance-of-name",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Checks the prototypical chain of an object and compares each constructor's name against the value.",
   "main": "index.js",
   "scripts": {
